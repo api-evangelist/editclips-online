@@ -1,4 +1,4 @@
-# editclips-online
+# EditClips.online
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-editclips-online is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://editclips.online/
+EditClips.online provides free browser‑based video, audio, image, GIF, and PDF editing tools that run locally via WebAssembly. It also offers AI‑powered enhancements on its own GPU servers with free trial credits and paid plans. The service includes a REST API for business customers, GDPR‑grade zero‑retention, and self‑serve pricing starting at $5.99/month.
+
+**Areas:** Video Editing · Audio Editing · Image Editing · AI Tools · Browser‑Based · Privacy · Media Processing
+
+## EditClips.online on APIs.io
+
+Everything profiled for EditClips.online is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/editclips-online/](https://apis.io/providers/editclips-online/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [EditClips.online Balance API](https://apis.io/apis/editclips-online/editclips-online-balance-api/) — Check your credit balance
+- [EditClips.online Jobs API](https://apis.io/apis/editclips-online/editclips-online-jobs-api/) — Create, poll, list, and cancel processing jobs
+- [EditClips.online Tools API](https://apis.io/apis/editclips-online/editclips-online-tools-api/) — Discover available processing tools
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Editclips Online Webhooks](https://apis.io/asyncapis/editclips-online/editclips-online-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Editclips Online Agentic Access](https://apis.io/agentic-access/editclips-online/editclips-online-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Balance](https://apis.io/schemas/editclips-online/editclips-online-balance/)
+- [CreateJobRequest](https://apis.io/schemas/editclips-online/editclips-online-create-job-request/)
+- [Job](https://apis.io/schemas/editclips-online/editclips-online-job/)
+- [JobCreated](https://apis.io/schemas/editclips-online/editclips-online-job-created/)
+- [JobSummary](https://apis.io/schemas/editclips-online/editclips-online-job-summary/)
+- [Tool](https://apis.io/schemas/editclips-online/editclips-online-tool/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Editclips Online Context](https://apis.io/jsonld/editclips-online/editclips-online-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EditClips.online API Rules](https://apis.io/rules/editclips-online/editclips-online-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Editclips Online Authentication](https://apis.io/security/editclips-online/editclips-online-authentication/)
+- [Editclips Online Domain Security](https://apis.io/security/editclips-online/editclips-online-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Editclips Online Plans Pricing](https://apis.io/plans/editclips-online/editclips-online-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://editclips.online/)
+- [Documentation](https://editclips.online/docs)
+- [Getting started](https://editclips.online/docs/guides/mcp)
+- [API reference](https://editclips.online/docs)
+- [Pricing](https://editclips.online/pricing)
+- [Sign up](https://editclips.online/business)
+- [Changelog](https://editclips.online/changelog)
+- [Blog](https://editclips.online/blog)
+- [Terms of service](https://editclips.online/terms)
+- [Privacy policy](https://editclips.online/privacy)
+- [GitHub](https://github.com/bernisnukic)
+
+## API Evangelist rating
+
+**Kin Score 65.7** — strong · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 72.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/editclips-online/](https://apis.io/providers/editclips-online/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EditClips.online: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/editclips-online/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
